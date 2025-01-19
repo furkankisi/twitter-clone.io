@@ -1,0 +1,87 @@
+*{
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body{
+    background-color: rgb(89, 62, 246);
+    color: white;
+  }
+  
+  .container{
+    margin: 0 auto;  
+    padding: 20px; 
+    width: 100%;    
+  }
+  .btn {
+    padding: 4px 8px;
+    border-radius: 8px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    transition: all;
+    transition-duration: 500ms;
+  }
+  .btnGroup {
+    margin-bottom: 10px;
+  }
+  
+  .active {
+    background-color: #8c97a6;
+    color: #fff;
+  }
+  
+  .markCompleteBtn {
+    float: left;
+    padding: 10px;
+    margin-right: 5px;
+    border-radius: 100%;
+    background-color: transparent;
+    border: 1px solid #000
+  }
+  
+  .deleteTaskBtn {
+    border: 1px;
+  }
+  
+  .deleteTaskBtn:hover {
+    background-color: rgb(249, 74, 74);
+    color: #fff;
+  }
+  
+  span {
+    min-width: 300px;
+    float: left;
+  }
+  
+  #taskList {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .taskItem {
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    padding: 0px 5px;
+    width: 100%;
+    border: 1px;
+    border-radius: 5px;
+    align-items: center;
+    background-color: white;
+    color: black;
+  }
+  #newTaskBtn {
+    margin-top: 10px;
+    width: 100%;
+    text-align: left;
+  }
+  
+  #newTaskInput{
+    margin-top: 10px;
+    width: 100%;
+    border-radius: 4px;
+    outline:none
+  }
+  
